@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "lilita";
+    src: url(fontes/LilitaOne-Regular.ttf);
+}
+body {
+    background-color: rgb(231, 240, 247);;
+}
+
+
+.navlinks :visited {
+    color: rgb(254, 207, 68);
+    text-decoration: none; 
+    font-family: "Lilita One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding: 25px 10px 25px 10px;
+        
+}
+
+.navlinks :link{
+    color: rgb(254, 207, 68);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding: 25px 10px 25px 10px;
+}
+
+.navlinks, .txt3 a :hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20px;
+    font-size: 110%;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 27px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.botaoP :link{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 1000;
+    font-size: 110%;
+    font-style: normal;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+.botaoP, .txt2 a :hover{
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: auto;
+    font-size: 100%;
+    background-color: rgb(254, 207, 68);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 27px;
+    padding: 22px 22px 22px 22px;
+}
+
+
+
+
+.botaoW :link{
+    
+   
+   width: 80%;
+   margin-bottom: 30%;
+    margin-top: 30%;
+}
+.botaoW, .txt4 a :hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -18px;
+    margin-top: -18px;
+   
+    text-align: center;
+    padding: 22px 22px 22px 22px;
+    border-radius: 27px;
+    
+}
+
+.maintitle{
+    width: 48%;
+    min-width: 250px;
+    vertical-align: top;
+    font-family: Calming;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(11, 29, 94);
+    
+    
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.txt {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100%;
+    color: #2c2c2c;
+    text-align: center;
+}
+
+.txt h2{
+    font-family:  sans-serif;
+    font-size: 350%;
+    color:rgb(11, 29, 94);
+}
+.txt h3 {
+    color: #EFBF37;
+    font-size: 200%;
+    font-family: Calming;
+}
+
+.txt2 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70%;
+    color:rgb(11, 29, 94);
+    text-align: center; 
+    
+    padding: 10px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    
+}
+.txt3 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70%;
+    color: rgb(11, 29, 94);
+    text-align: center; 
+    background-color:rgb(231, 240, 247);
+    padding: 10px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    border-radius: 25px;
+}
+
+.txt2 h2 {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 10;
+    font-style: italic;
+}
+
+.txt b {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.txt2 h3, h4 {
+    font-family: Calming;
+
+}
+
+
+.txt3 h2 {
+    font-family: Calming;
+    font-weight: 700;
+}
+
+
+
+.footer {
+    display: block;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
+    
+}
+
+.container {
+    display: flex; /* Ativar o modelo de layout flexível */
+  }
+
+  .box {
+    width: 50%; /* Cada div ocupará metade da largura do contêiner */
+    box-sizing: border-box; /* Garante que a borda está incluída na largura e altura */
+    padding: 20px; /* Adiciona um espaçamento interno para melhorar a aparência */
+  }
+  .box2 {
+    width: 10%; /* Cada div ocupará metade da largura do contêiner */
+    box-sizing: border-box; /* Garante que a borda está incluída na largura e altura */
+    padding: 20px; /* Adiciona um espaçamento interno para melhorar a aparência */
+  }
+  .box3 {
+    width: 90%; /* Cada div ocupará metade da largura do contêiner */
+    box-sizing: border-box; /* Garante que a borda está incluída na largura e altura */
+    padding: 20px;  
+    margin-right: 10%;/* Adiciona um espaçamento interno para melhorar a aparência */
+  }
+  .testebordas{
+    border-radius: 50%;
+  }
